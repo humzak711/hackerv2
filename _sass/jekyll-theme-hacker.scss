@@ -239,13 +239,27 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
-/* Links
-   a, a:hover, a:visited
-*/
-
+/* Links */
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: #f5f2f3; 
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); 
+  transition: all 0.3s ease; 
+}
+
+a:hover {
+  color: #f52067; 
+  text-shadow: 0 0 8px rgba(255, 80, 103, 0.8); 
+  transform: scale(1.1); 
+  transition-delay: 0.5s; 
+}
+
+a:visited {
+  color: #c77993; 
+}
+
+a:active {
+  color: #f52067;
+  transform: scale(1.05); 
 }
 
 /* Clearfix */
